@@ -6,7 +6,7 @@
       ******************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. YOUR-PROGRAM-NAME.
-      * Este programa mostrar· las tablas de multiplicar de un numero.
+      * Este programa mostrar√° las tablas de multiplicar de un numero.
        DATA DIVISION.
        FILE SECTION.
        WORKING-STORAGE SECTION.
@@ -27,7 +27,7 @@
                ELSE
                     PERFORM INTRODUCE-NUMERO.
                     PERFORM CALCULOS UNTIL MULTIPLICADOR >10.
-      *con perform se ejecutar· una detras de la otra (en este mismo orden)
+      *con perform se ejecutar√° una detras de la otra (en este mismo orden)
 
       *segunda rutina se llama finalizar
        FINALIZAR.
@@ -53,4 +53,4 @@
 
 
 
-      * Ejempo de:  https://www.programacionfacil.org/cursos/cobol/capitulo_12_rutinas_y_calculos_repetitivos.html
+
