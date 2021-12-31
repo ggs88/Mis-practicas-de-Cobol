@@ -32,6 +32,7 @@
                02 EMPLEADOS-TELEFONO PIC 9(9).
                02 EMPLEADOS-DIRECCION PIC X(35).
 
+      
       * aqui van las variables del archivo logico:
        WORKING-STORAGE SECTION.
        01  IDENTIFICADOR PIC X(30) VALUE "Introduce ID empleado ".
@@ -124,7 +125,7 @@
 
      * 7-GUARDA-REGISTRO.
        DISPLAY "Pulsa 1 para guadar y salir".
-       DISPLAY "Pulsa 2 para guardar y añadir mas empleados".
+       DISPLAY "Pulsa 2 para guardar y aÃ±adir mas empleados".
        ACCEPT CONFIRMACION.
        IF CONFIRMACION = "1" PERFORM CONFIRMACION-GUARDAR END-IF.
        IF CONFIRMACION = "2" PERFORM CONFIRMACION-Y-EMPEZAR
@@ -144,7 +145,7 @@
 
 
        8-REINICIA.
-       DISPLAY "¿Desea almacenar otro registro en la base de datos?".
+       DISPLAY "Â¿Desea almacenar otro registro en la base de datos?".
        ACCEPT SI-NO.
        IF SI-NO = "s"
        MOVE "S" TO SI-NO.
